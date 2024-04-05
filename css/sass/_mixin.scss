@@ -1,0 +1,11 @@
+@mixin media($point) {
+  @if $point == mobile {
+    @media (max-width: 767px) {
+      @content;
+    }
+  } @else if $point == larg {
+    @media (max-width: 991px) {
+      @content;
+    }
+  }
+}
