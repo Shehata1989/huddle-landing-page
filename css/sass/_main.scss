@@ -99,6 +99,8 @@ header {
       color: white;
       box-shadow: 0 0 10px #ddd;
       margin-top: 40px;
+        @include media(mobile) {
+        margin: auto;
     }
   }
   .image {
