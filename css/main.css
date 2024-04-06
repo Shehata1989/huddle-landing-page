@@ -81,6 +81,9 @@ header nav {
       color: white;
       box-shadow: 0 0 10px #ddd;
       margin-top: 40px; }
+      @media (max-width: 767px) {
+        .landing .info a {
+          margin: auto; } }
   .landing .image img {
     max-width: 100%; }
   .landing .background img {
